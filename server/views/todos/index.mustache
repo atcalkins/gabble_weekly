@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todos</title>
+  </head>
+  <body>
+    <h1>Todos</h1>
+    <ul>
+    {{#todos}}
+      <li><a href="/todos/{{id}}">{{description}}</a> | {{completed}}</li>
+    {{/todos}}
+    </ul>
+  </body>
+</html>
